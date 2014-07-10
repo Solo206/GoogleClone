@@ -83,10 +83,6 @@ li{
   font-size:0.8em;
 }
 .hash{
-  /*background-image:url(images/grid.png);
-  width:100%;
-  height:auto;
-  padding-right:0.313em;*/
   height:2em;
   width:2em;
 }
@@ -187,10 +183,10 @@ footer{
   vertical-align:middle;
 }
 
-*{
+/**{
   outline:0.063em solid black;
 }
-
+*/
 @media (max-width:1000px){
 	body{font-size:medium;}
 	float:none;
