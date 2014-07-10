@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-size:large;
+	font-family:helvetica;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End of Eric Meyer's CSS Reset*/
+header{
+	position:relative;
+	height:2.5em;
+	min-width:800px;
+}
+.heading{
+  position:absolute;
+  display:inline-block;
+  /*border:1px solid red;	*/
+  /*text-align:right;
+  margin-right:1.250em;*/
+  right:25px;
+  top:1.5em;
+}
+.signin{
+  background:linear-gradient(to bottom, #4285F4, #4683EB);
+  color:white;
+  padding:0.4em 0.8em;
+  font-size:1em;
+  font-family:arial,sans-serif;
+  font-weight:bold;
+  border-style:none;
+  -webkit-border-radius: 0.325em;
+  	-moz-border-radius: 0.325em;
+  	border-radius: 0.125em;	
+}
+li{
+  display:inline-block;
+  margin-right:1.2em;
+  vertical-align:middle;
+  font-size:0.8em;
+}
+.hash{
+  /*background-image:url(images/grid.png);
+  width:100%;
+  height:auto;
+  padding-right:0.313em;*/
+  height:2em;
+  width:2em;
+}
+.hash img{
+	width:100%;
+	height:auto;
+}
+.google{
+  position:relative;
+  margin-top:10%;/*17.250em*/
+  text-align:center;
+  height:17em;
+  min-width:800px;
+}
+.google img{
+  position:relative;
+  width:14%; /*25%*/
+
+  
+}
+.searchborder{
+  position:relative;
+  display:inline-block;
+  border:1px solid #4285F4;
+  margin: 1.25em 0 0.625em 0;
+  padding:0 15px;
+  
+}
+#searchbox{
+  /* outline:none; */
+
+  border:0;
+  vertical-align:middle;
+  width:43.75em;
+  height:2em;
+
+}
+.sbuttons{
+	display:inline-block;
+	position:relative;
+}
+.searchbutton{
+  margin: 0.625em 0.50em;
+  background: linear-gradient(to bottom, #F2F2F2,#F8F8F8);
+  border-style:none;
+  border:1px solid #DBDBDB;
+  font-weight:bold;
+  -webkit-border-radius: 0.325em;
+  -moz-border-radius: 0.325em;
+  border-radius: 0.325em;
+  padding:0.625em 0.50em;
+  font-size:0.6em;
+  font-family:sans-serif;
+  color:#492222;
+}
+.mic{
+  vertical-align:middle;
+  /* outline:none; */
+}
+footer{
+	position:fixed;
+	min-width:800px;
+	width:100%;
+    margin-top:19.5%;/*11em*/
+    padding-top:0.20%;/*0.6.25*/
+    background:#F2F2F2;
+    height:2.3em;
+    bottom:0em;
+
+}
+.left{
+  position:fixed;
+  display:inline-block;
+  left: 0.625em;
+  margin-top:0.5em;
+  vertical-align:middle;
+}
+.left a{
+  margin-left:1.875em;
+  color:#80667D;
+  text-decoration:none;
+  font-size:0.8em;
+  vertical-align:middle;
+}
+.right a{
+  margin-right:1.875em;
+  color:#80667D;
+  text-decoration:none;
+  font-size:0.8em;
+  vertical-align:middle;
+}
+
+.right{
+  display:fixed;
+  position:absolute;
+  right:0.625em;
+  margin-top:0.5em;
+  vertical-align:middle;
+}
+
+*{
+  outline:0.063em solid black;
+}
+
+@media (max-width:1000px){
+	body{font-size:medium;}
+	float:none;
+	width:auto;
+
+
+}
+
+/*@media (max-width:500px){
+	body{font-size:small;}
+}
+*/
